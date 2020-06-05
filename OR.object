@@ -1,0 +1,64 @@
+<Root type="OR" ref="Bing">
+  <Page title="" ref="Search">
+    <ObjectGroup ref="search">
+      <Object frame="" ref="search">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="//input[@name='q']" ref="relative_xpath" pref="4"/>
+        <Property value="" ref="xpath" pref="5"/>
+        <Property value="" ref="class" pref="6"/>
+        <Property value="" ref="css" pref="7"/>
+        <Property value="" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="images">
+      <Object frame="" ref="images">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="//a[text()='Images']" ref="relative_xpath" pref="4"/>
+        <Property value="" ref="xpath" pref="5"/>
+        <Property value="" ref="class" pref="6"/>
+        <Property value="" ref="css" pref="7"/>
+        <Property value="" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="clipart">
+      <Object frame="" ref="clipart">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="//span[text()='Clipart']" ref="relative_xpath" pref="4"/>
+        <Property value="" ref="xpath" pref="5"/>
+        <Property value="" ref="class" pref="6"/>
+        <Property value="" ref="css" pref="7"/>
+        <Property value="" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="linedrawing">
+      <Object frame="" ref="linedrawing">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="//span[text()='Line drawing']" ref="relative_xpath" pref="4"/>
+        <Property value="" ref="xpath" pref="5"/>
+        <Property value="" ref="class" pref="6"/>
+        <Property value="" ref="css" pref="7"/>
+        <Property value="" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="filter">
+      <Object frame="" ref="filter">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="//span[text()='Filter']" ref="relative_xpath" pref="4"/>
+        <Property value="" ref="xpath" pref="5"/>
+        <Property value="" ref="class" pref="6"/>
+        <Property value="" ref="css" pref="7"/>
+        <Property value="" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+  </Page>
+</Root>

@@ -1,0 +1,2 @@
+Execute,TestScenario,TestCase,Iteration,Status,Browser,BrowserVersion,Platform
+true,NewScenario,launch_Bing,Single,Passed,Chrome,Default,LINUX

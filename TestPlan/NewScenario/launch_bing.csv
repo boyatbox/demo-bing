@@ -1,0 +1,21 @@
+Step,ObjectName,Description,Action,Input,Condition,Reference
+1,Browser,Open the Url [<Data>] in the Browser,Open,@https://www.bing.com,,
+2,Browser,Assert if Browser's Url Contains [<Data>],assertUrlContains,@bing.com,,
+3,search,Enter the value [<Data>] in the [<Object>] if it exists,Set,@apple,,Search
+4,Browser,Wait for [<Data>] milli seconds,pause,@1000,,
+5,Browser,Send Keys [<Data>]  to Window.,sendKeysToWindow,@Enter,,
+6,Browser,Wait for Page to be loaded,waitForPageLoaded,,,
+7,images,"Click the [<Object>] ",Click,,,Search
+8,Browser,Wait for Page to be loaded,waitForPageLoaded,,,
+9,Browser,"Take a Screen Shot ",takeScreenshot,,,
+10,filter,"Click the [<Object>] ",Click,,,Search
+11,Browser,Wait for Page to be loaded,waitForPageLoaded,,,
+12,Browser,Wait for [<Data>] milli seconds,pause,@3000,,
+13,clipart,"Click the [<Object>] ",clickByJS,,,Search
+14,Browser,Wait for Page to be loaded,waitForPageLoaded,,,
+15,Browser,Wait for [<Data>] milli seconds,pause,@3000,,
+16,Browser,"Take a Screen Shot ",takeScreenshot,,,
+17,linedrawing,"Click the [<Object>] ",clickByJS,,,Search
+18,Browser,Wait for Page to be loaded,waitForPageLoaded,,,
+19,Browser,Wait for [<Data>] milli seconds,pause,@3000,,
+20,Browser,"Take a Screen Shot ",takeScreenshot,,,
